@@ -3,7 +3,7 @@
 import os
 import numpy as np
 from skimage.io import imread, imsave
-from scipy.fftpack import fft2, ifft2, fftshift
+from numpy.fft import fft2, ifft2, fftshift
 
 
 class CaNE:
