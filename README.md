@@ -14,3 +14,7 @@ By exploring the property of sparsity and tube-like structure in the neuron imag
 
 ### 3D example
 ![enhanced image](assets/neuron_enhance.gif "3d enhancement example")
+
+## Dependencies
+1. `numpy`: matrix operation. Installation: `pip3 insall numpy`
+2. `skimage`: Read and write image data. Installation: `pip3 install scikit-image`
