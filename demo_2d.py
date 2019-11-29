@@ -13,13 +13,13 @@ if __name__ == "__main__":
     image = imageio.imread(image_path)
     image = image / np.max(image)
 
-    # -- do enhancement
+    # -- enhance
     tic = time.time()
     enhanced_image, enhance_hist = cane_2d(image, smooth_degree)
     toc = time.time()
     print("Enhancement done: {:.2f}s. The image is of size {}*{}".format(toc-tic, image.shape[0], image.shape[1]))
 
-    # -- write the enhanced results
+    # -- write results
     imageio.imwrite(write_path, (enhanced_image*255).astype(np.uint8))
 
 
