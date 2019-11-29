@@ -16,5 +16,5 @@ This animation demonstrates how CaNE removes background clutters for 3D data.
 <img src="assets/neuron_enhance.gif" alt="3d enhancement example" width = "200px"/>
 
 ## Dependencies
-1. `numpy`: matrix operation. Installation: `pip3 insall numpy`
-2. `skimage`: Read and write image data. Installation: `pip3 install scikit-image`
+1. `numpy`: matrix operation. Installation: `pip insall numpy`
+2. `imageio`: Read and write image data. Installation: `pip install imageio`
